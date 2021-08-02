@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite parallel="false" name="Suite">
+  <test name="Test">
+  <parameter name ="browser" value = "chrome"/>
+  <parameter name ="url" value = "https://e.ggtimer.com/"/>
+  <parameter name ="time" value = "25 seconds"/>
+    <classes>
+      <class name="Isha.EggTimerTest.testCase.EggTimerTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="time" value="25 seconds"/>
+    <parameter name="url" value="https://e.ggtimer.com/"/>
+    <classes>
+      <class name="Isha.EggTimerTest.testCase.EggTimerTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="closeApplication"/>
+          <include name="verifyTimerCountdown" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Isha.EggTimerTest.testCase.EggTimerTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
